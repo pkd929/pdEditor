@@ -1,0 +1,28 @@
+{
+  "name": "pdeditor",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+    "build": "tsup src/index.tsx --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+   "files": ["dist"],
+  "description": "",
+  "devDependencies": {
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+    "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
